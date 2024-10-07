@@ -1,5 +1,5 @@
 //
-//  RecipesApp.swift
+//  AppDelegate.swift
 //  Recipes
 //
 //  Created by michal zak on 06/10/2024.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct RecipesApp: App {
+struct AppDelegate: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView()
         }
     }
 }
